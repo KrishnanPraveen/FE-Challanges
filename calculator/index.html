@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="calc_sec">
+  <div class="calc_container">
+
+    <div class="calc_head">
+      <div class="calc_title">
+        <h2>calc</h2>
+      </div>
+      <div class="calc_checkbox_container">
+        <h3>THEME</h3>
+        <div class="calc_checkbox">
+          <div class="checkbox_1">
+            <input type="radio" class="radio" name="theme" id="chck1" checked="checked">
+            <label for="chck1">1</label>
+          </div>
+          <div class="checkbox_2">
+            <input type="radio" class="radio" name="theme" id="chck2">
+            <label for="chck2">2</label>
+          </div>
+          <div class="checkbox_3">
+            <input type="radio" class="radio" name="theme" id="chck3">
+            <label for="chck3">3</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="calc_display">
+      <input type="text" name="display" class="display" id="display">
+    </div>
+
+    <div class="calc_keypad">
+      <div class="calc_btn get">
+        <button value="7">7</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="8">8</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="9">9</button>
+      </div>
+      <div class="calc_btn thm-btn del">
+        <button value="del">DEL</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="4">4</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="5">5</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="6">6</button>
+      </div>
+      <div class="calc_btn get plus">
+        <button value="+">+</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="1">1</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="2">2</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="3">3</button>
+      </div>
+      <div class="calc_btn get minus">
+        <button value="-">-</button>
+      </div>
+      <div class="calc_btn get dot">
+        <button value=".">.</button>
+      </div>
+      <div class="calc_btn get">
+        <button value="0">0</button>
+      </div>
+      <div class="calc_btn get divide">
+        <button value="/">/</button>
+      </div>
+      <div class="calc_btn get multiple">
+        <button value="*">x</button>
+      </div>
+      <div class="calc_btn thm-btn reset">
+        <button value="reset">RESET</button>
+      </div>
+      <div class="calc_btn thm-btn-alt total">
+        <button value="=">=</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
